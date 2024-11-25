@@ -1,0 +1,34 @@
+nav {
+  color: white;
+  background-color: #121212;
+  position: absolute;
+  border-style: solid;
+  border-color: #121212;
+  border-width: thin;
+  border-radius: 10px;
+  width: 30%;
+  height: auto;
+  margin-left: 5px;
+  padding: 2px;
+  left: 5px;
+  top: 90px;
+  font-size: large;
+
+}
+
+.bouton {
+  display: flex;
+  justify-content: center;
+  align-items: column;
+}
+
+.bouton>div {
+  color: #1ECB5A;
+  border: solid;
+  border-radius: 10px;
+  border-color: #1ECB5A;
+}
+
+.bouton>div>a {
+  text-decoration: none;
+}

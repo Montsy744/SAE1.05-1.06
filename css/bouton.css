@@ -1,0 +1,26 @@
+.bouton {
+  position: absolute;
+  left: 50%;
+  margin-top: 3%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+div>a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.bouton:hover,
+a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(20, 20, 20);
+  transition-duration: 0.5s;
+}

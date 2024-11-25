@@ -1,0 +1,76 @@
+body>header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #000000;
+  height: 70px;
+  width: 97%;
+}
+
+/* code de la partie gauche*/
+.partLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  vertical-align: middle;
+}
+
+section>div>a>h1 {
+  font-size: xx-large;
+
+}
+
+.partLeft>.title>a {
+  text-decoration: none;
+  color: #1ECB5A;
+}
+
+.sour-gummy {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/*code de la partie droite*/
+.partRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inscription>a {
+    text-decoration: none;
+    color: grey
+  }
+
+  .connexion>a {
+    text-decoration: none;
+    color: grey;
+
+  }
+
+  .connexion {
+    text-align: center;
+    margin: 10px;
+    font-size: large;
+
+  }
+
+  .inscription {
+    text-align: center;
+    margin: 10px;
+    font-size: large;
+  }
+
+  .inscription>a:hover {
+    color: white;
+  }
+
+  .connexion>a:hover {
+    color: white;
+  }

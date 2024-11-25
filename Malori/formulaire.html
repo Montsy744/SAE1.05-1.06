@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/incident.css" />
+    <title>Incident</title>
+</head>
+
+<body>
+    <h1>Formulaire prétendant Malori</h1>
+    <form name="form1">
+        <ul>
+            <li>
+                <label for="auteur">Nom&nbsp;: </label>
+                <input type="text" id="auteur" name="nom" maxlength="8" placeholder="Votre nom"
+                    title="40 caractères maximum" required>
+            </li>
+            <li>
+                <label>
+                    Courriel&nbsp;:
+                    <input type="email" id="email" name="email" placeholder="prenom.nom.etu@univ-lille.fr"
+                        pattern=".+\..+\.etu@univ-lille.fr" title="Uniquement des emails étudiants !" required>
+                </label>
+            </li>
+            <li>
+                Dote&nbsp;:
+                <input type="">
+                </label>
+            </li>
+            <li>
+                <label for="msg">Message&nbsp;:</label>
+                <textarea id="msg" name="user_msg" placeholder="Indiquer votre message ici"
+                    title="Merci de rester poli"></textarea>
+            </li>
+            <li class="bouton">
+                <input type="submit" value="Input de soumission">
+                <button type="submit">Bouton de soumission</button>
+                <input type="reset" value="Annuler">
+                <input id="prodId" name="prodId" type="hidden" value="zx589q4312pm">
+            </li>
+        </ul>
+    </form>
+</body>
+
+</html>

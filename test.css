@@ -1,0 +1,68 @@
+.sour-gummy {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+  }
+
+
+
+  body { 
+    margin: 0; 
+    overflow: hidden; /* Empêche les barres de défilement */ 
+    background-color: aqua;
+} 
+header {
+    height: 100px; 
+    background-color: pink;
+} 
+.Commentaire {
+    position: absolute; 
+    top: 100px; 
+    bottom: 0; 
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+}
+.defilement {
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+} 
+@keyframes defilement { 
+    0% { 
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-50%);
+        opacity: 1; 
+    }
+    90% { 
+        opacity: 1; 
+    } 
+    100% { 
+        transform: translateY(-100%); 
+        opacity: 0; 
+    } 
+} 
+.defilement div { 
+    margin: 10px 0; 
+    padding: 10px; 
+    background-color: rgb(0, 0, 0); 
+    color: white; 
+    border-radius: 20px;
+    width: 80%;
+    text-align: center; 
+    animation: defilement 15s linear infinite;
+}
