@@ -25,6 +25,7 @@ nav {
 #menu>div {
   
   border: solid;
+  border-width: 50%;
   border-radius: 10px;
   border-color: #1ECB5A;
 }
