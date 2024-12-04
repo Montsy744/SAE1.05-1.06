@@ -97,3 +97,6 @@ main {
   grid-template-columns: 50% 50%;
 }
 
+#option>.grille>#formulaire1 {
+  color: white;
+}
