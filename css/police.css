@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "sour-gummy";
+    src: url("./../police/SourGummy.ttf") format("svg");
+}
+
+.sour-gummy {
+    font-family: "Sour Gummy", sans-serif;
+  }
