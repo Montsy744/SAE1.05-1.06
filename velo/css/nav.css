@@ -7,28 +7,28 @@ nav {
   border-width: thin;
   border-radius: 10px;
   width: 30%;
-  height: auto;
+  height: 100%;
   margin-left: 5px;
   padding: 2px;
   left: 5px;
-  top: 90px;
+  top: 100px;
   font-size: large;
 
 }
 
-.bouton {
+#menu {
   display: flex;
   justify-content: center;
-  align-items: column;
+  flex-direction: column;
 }
 
-.bouton>div {
+#menu>div {
   color: #1ECB5A;
   border: solid;
   border-radius: 10px;
   border-color: #1ECB5A;
 }
 
-.bouton>div>a {
+#menu>div>a {
   text-decoration: none;
 }
