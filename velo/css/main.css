@@ -95,11 +95,20 @@ main {
   margin-left: 20px;
 }
 
-#option>.grille {
-  display: grid;
-  grid-template-columns: 50% 50%;
+#option>#position {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-#option>.grille>#formulaire1 {
-  color: white;
+#option>#position>#formulaire1 {
+  
+  border: solid red 1px;
+  border-radius: 10px;
+  background-color: #121212;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
