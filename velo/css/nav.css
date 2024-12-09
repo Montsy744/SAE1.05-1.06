@@ -7,9 +7,9 @@ nav {
   border-width: thin;
   border-radius: 10px;
   width: 30%;
-  height: 100%;
+  height: auto;
   margin-left: 5px;
-  padding: 2px;
+  padding: 10px;
   left: 5px;
   top: 100px;
   font-size: large;
@@ -22,15 +22,22 @@ nav {
   flex-direction: column;
 }
 
-#menu>div {
+#menu>ul>li {
   
   border: solid;
   border-width: 50%;
   border-radius: 10px;
   border-color: #1ECB5A;
+  list-style: none;
+  margin-top: 10px;
+  padding:10px;
+}
+#menu>ul>li:hover {
+  margin-left: 20px;
+  transition-duration: 2s;
 }
 
-#menu>div>a {
+#menu>ul>li>a {
   text-decoration: none;
   color: #1ECB5A;
 }
