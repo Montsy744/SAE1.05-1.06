@@ -1,6 +1,6 @@
 main {
   display: grid;
-  grid-template-rows: 1fr 2fr 3fr;
+  grid-template-rows: auto 2fr 3fr;
   grid-template-columns: 32% 68%;
   column-gap: 10px;
   row-gap: 30px;
@@ -13,13 +13,67 @@ main {
   border-radius: 10px;
 }
 
-#presentation>h1{
-  color: #1ECB5A;
+#presentation > h1 {
+  color: #1ecb5a;
   padding-left: 10px;
 }
 
-#presentation>p{
+#presentation > p {
   color: white;
   padding-left: 10px;
+  padding-bottom: 10px;
 }
 
+#vehicules {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: #121212;
+  border-radius: 10px;
+}
+
+#vehicules > h1 {
+  color: #1ecb5a;
+  padding: 10px;
+}
+
+#vehicules > #position {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+#position > #image1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+#position > #image2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+#position > #auto1 {
+  grid-column: 2;
+  grid-row: 1;
+}
+#position > #auto2 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#position > #image1 > img {
+  width: auto;
+  height: 400px;
+  border: solid #1f1f1f 5px;
+  border-radius: 10px;
+  border-style: groove;
+  margin-left: 10px;
+}
+
+#position > #image2 > img {
+  width: auto;
+  height: 335.5px;
+  border: solid #1f1f1f 5px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
