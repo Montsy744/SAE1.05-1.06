@@ -1,6 +1,6 @@
 main {
   display: grid;
-  grid-template-rows: 90px 1fr 2fr 3fr;
+  grid-template-rows: 1fr 2fr 3fr;
   grid-template-columns: 32% 68%;
   column-gap: 10px;
   row-gap: 30px;
@@ -9,7 +9,7 @@ main {
 
 #presentation {
   grid-column-start: 2;
-  grid-row-start: 2;
+  grid-row-start: 1;
   background-color: #121212;
   border-radius: 10px;
 }
@@ -27,7 +27,7 @@ main {
 
 #information {
   grid-column-start: 2;
-  grid-row-start: 3;
+  grid-row-start: 2;
   background-color: #121212;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -84,7 +84,7 @@ main {
 
 #option {
   grid-column-start: 2;
-  grid-row-start: 4;
+  grid-row-start: 3;
   background-color: #121212;
   column-gap: 10px;
   border-radius: 10px;
