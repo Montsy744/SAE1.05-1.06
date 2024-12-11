@@ -83,3 +83,17 @@ main {
   border-radius: 10px;
   margin-left: 10px;
 }
+
+.bouton{
+  background-color: #000000;
+  border: solid #1f1f1f 5px;
+  border-radius: 10%;
+  width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bouton>a {
+  color: white;
+  text-decoration: none;
+}
