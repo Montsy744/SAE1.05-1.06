@@ -1,12 +1,11 @@
 body>header {
-  position: absoluet;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   background-color: transparent;
   height: 70px;
-  width: 97%;
 }
 
 /* code de la partie gauche*/
@@ -30,39 +29,39 @@ section>div>a>h1 {
 
 /*code de la partie droite*/
 .partRight {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .inscription>a {
-    text-decoration: none;
-    color: grey
-  }
+.inscription>a {
+  text-decoration: none;
+  color: grey
+}
 
-  .connexion>a {
-    text-decoration: none;
-    color: grey;
+.connexion>a {
+  text-decoration: none;
+  color: grey;
 
-  }
+}
 
-  .connexion {
-    text-align: center;
-    margin: 10px;
-    font-size: large;
+.connexion {
+  text-align: center;
+  margin: 10px;
+  font-size: large;
 
-  }
+}
 
-  .inscription {
-    text-align: center;
-    margin: 10px;
-    font-size: large;
-  }
+.inscription {
+  text-align: center;
+  margin: 10px;
+  font-size: large;
+}
 
-  .inscription>a:hover {
-    color: white;
-  }
+.inscription>a:hover {
+  color: white;
+}
 
-  .connexion>a:hover {
-    color: white;
-  }
+.connexion>a:hover {
+  color: white;
+}
