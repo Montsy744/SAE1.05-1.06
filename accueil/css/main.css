@@ -12,16 +12,9 @@ main {
     grid-template-columns: 60% 40%;
     background-color: #121212;
   }
-  /* nav dans la main */
-  main > nav {
-    grid-column: 2;
-    color: white;
-    background-color: #1f1f1f;
-    border-radius: 10px;
-    text-align: center;
-    font-size: large;
-    margin: 5px;
-  }
+
+ 
+
   
   #bouton {
     background-color: #1ecb5a;
@@ -44,14 +37,7 @@ main {
   
   /* défilement des caractères*/
   
-  .Commentaire {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    color: white;
-  }
-  
+
   /* .defilement {
     position: absolute;
     bottom: 0;
@@ -86,7 +72,6 @@ main {
     background-color: #1ecb5a;
     color: white;
     border-radius: 20px;
-    width: 80%;
     text-align: center;
     animation: defilement 15s linear infinite;
   }

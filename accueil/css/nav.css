@@ -1,34 +1,35 @@
-.nav {
-    color: white;
-    background-color: #121212;
-    position: absolute;
-    border-style: solid;
-    border-color: #121212;
-    border-width: thin;
-    border-radius: 10px;
-    width: 30%;
-    height: 80%;
-    margin-left: 5px;
-    padding: 2px;
-    left: 5px;
-    top: 100px;
-    font-size: large;
-  }
+ body {
+  display: flex;
+  flex-direction: column;
+ }
+ 
+ 
+ nav {
   
-  .objectif {
+  
+}
+  
+  .bloc {
+    color:white;
     background-color: #1f1f1f;
     border-radius: 10px;
     padding: 10px;
+    display: inline-flex;
+    flex-direction: column;
+
   }
   
-  .conviction {
-    background-color: #1f1f1f;
-    border-radius: 10px;
-    padding: 10px;
+  nav > div {
+    display: flex;
+    justify-content: space-between;
+    color:white;
   }
-  
+
   nav > div > h1 {
+    text-decoration: bold;
+    color: white;
     text-align: center;
+    color: limegreen;
   }
   
   .entete p {

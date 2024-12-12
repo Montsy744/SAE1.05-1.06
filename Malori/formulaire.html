@@ -1,46 +1,125 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <meta charset="utf-8" />
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/incident.css" />
-    <title>Incident</title>
-</head>
+        <title>Covoiturage</title>
 
-<body>
-    <h1>Formulaire prétendant Malori</h1>
-    <form name="form1">
-        <ul>
-            <li>
-                <label for="auteur">Nom&nbsp;: </label>
-                <input type="text" id="auteur" name="nom" maxlength="8" placeholder="Votre nom"
-                    title="40 caractères maximum" required>
-            </li>
-            <li>
-                <label>
-                    Courriel&nbsp;:
-                    <input type="email" id="email" name="email" placeholder="prenom.nom.etu@univ-lille.fr"
-                        pattern=".+\..+\.etu@univ-lille.fr" title="Uniquement des emails étudiants !" required>
-                </label>
-            </li>
-            <li>
-                Dote&nbsp;:
-                <input type="">
-                </label>
-            </li>
-            <li>
-                <label for="msg">Message&nbsp;:</label>
-                <textarea id="msg" name="user_msg" placeholder="Indiquer votre message ici"
-                    title="Merci de rester poli"></textarea>
-            </li>
-            <li class="bouton">
-                <input type="submit" value="Input de soumission">
-                <button type="submit">Bouton de soumission</button>
-                <input type="reset" value="Annuler">
-                <input id="prodId" name="prodId" type="hidden" value="zx589q4312pm">
-            </li>
-        </ul>
-    </form>
-</body>
+        <link rel="stylesheet" href="../Malori/css/style.css" />
+    </head>
 
+    <body>
+        <header>
+            <section>
+                <img src="Malori/ressources/Logo.png" alt="logo RWS" />
+                <a href="covoiturage/covoiturage.html"><p>Covoiturage</p></a>
+            </section>
+            <section>
+                <button>Inscription</button><button>Connexion</button>
+            </section>
+        </header>
+        <h1>Covoiturage</h1>
+        <!-- texte orphelin mais plus ergonomique-->
+        
+        <main>
+            <section>
+                <form>
+                    <h2>Publier</h2>
+                    <hr />
+                    <!-- déprécié mais j'aime bien (puis je m'en sers juste de support pour dotted line-->
+                    <label>Nom</label>
+                    <input type="text" placeholder="Nom" />
+                    <label>Prénom</label>
+                    <input type="text" placeholder="Prénom" />
+                    <label>E-mail</label>
+                    <input type="text" placeholder="E-mail" />
+                    <hr />
+                    <label>Tel</label>
+                    <input type="tel" placeholder="Numéro de téléphone" />
+                    <hr />
+                    <label>Date de départ</label>
+                    <input type="date" placeholder="Date de départ" />
+                    <label>Modèle de la voiture</label>
+                    <input type="texte" placeholder="Modèle de la voiture" />
+                    <label>Ville de prise en charge</label>
+                    <select name="Ville de prise en charge">
+                        <option>Paris</option>
+                        <option>Lille</option>
+                        <option>Lesquin</option>
+                        <option>Clermont-Ferrant</option>
+                    </select>
+
+                    <hr />
+                    <div id="checkbox">
+                        <input type="checkbox" id="FF" />
+                        <label for="FF"> Fumeur-friendly</label>
+                    </div>
+                    <div id="checkbox">
+                        <input type="checkbox" id="C" />
+                        <label for="C"
+                            >J'accepte les règlementations de
+                            Confidentialité</label
+                        >
+                    </div>
+                    <div id="checkbox">
+                        <input type="checkbox" id="N" />
+                        <label for="C"
+                            >J'accepte de recevoir la Newsletter</label
+                        >
+                    </div>
+
+                    <button href="Malori/confirmation.html">Soumettre</button>
+                </form>
+            </section>
+
+            <aside>
+                <h2>Aperçu de votre annonce</h2>
+                <img src="Malori/ressources/multiplat.png" />
+                <label>Modèle : </label>
+                <p>Fiat Multiplat</p>
+                <label>Lieu de prise en charge : </label>
+                <p>Paris 13ème</p>
+                <label>Lieu d'arrivée : </label>
+                <p>Paris 15ème</p>
+                <label>Durée : </label>
+                <p>0 h 50 min</p>
+            </aside>
+            <section>
+                <h2>Annonces</h2>
+                <p>Trier par</p>
+                <select>
+                    <option>
+                        Distance
+                    </option>
+                    <option>
+                        Durée
+                    </option>
+                    <option>
+                        Note
+                    </option>
+                </select>
+                <div class="annonce">
+                    <img src="Malori/ressources/multiplat.png">
+                    <label>Malori Alvarez</label>
+                    <p>non-fumeur, départ à 1 min de votre domicile</p>
+                    <button>Consulter</button>
+                </div>
+                <div class="annonce">
+                    <img src="Malori/ressources/multiplat.png">
+                    <label>Hugo Straseele</label>
+                    <p>non-fumeur, départ à 25 min de votre domicile</p>
+                    <button>Consulter</button>
+                </div>
+                <div class="annonce">
+                    <img src="Malori/ressources/multiplat.png">
+                    <label>Valentino Paganin</label>
+                    <p>non-fumeur, départ à 2 min de votre domicile</p>
+                    <button>Consulter</button>
+                </div>
+                
+            </section>
+            </section>
+        </main>
+    </body>
 </html>
