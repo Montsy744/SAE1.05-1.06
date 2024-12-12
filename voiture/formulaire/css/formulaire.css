@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(#121212, #1ecb5a);
+    height: 100%;
+}
+#formulaire {
+    background-color: #1f1f1f;
+    border-radius: 5%;
+    margin-left: 35%;
+    width: 30%;
+    margin-top: 15%;
+    padding-left: 10px;
+}
+
+/*css du header*/
+h1 {
+    font-family: 'sour-gummy';
+    color: #1ecb5a;
+    
+}
+/*css du main*/
+form.contenueFormulaire {
+    display: table;
+    color: white;
+    
+  }
+  
+  div.caseFormulaire {
+    display: table-row;
+  }
+  
+  label,
+  input {
+    display: table-cell;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    padding-right: 10px;
+  }
+  

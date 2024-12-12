@@ -17,6 +17,7 @@ main {
 #presentation>h1 {
   color: #1ecb5a;
   padding-left: 10px;
+  font-family: 'sour-gummy';
 }
 
 #presentation>p {
@@ -35,6 +36,7 @@ main {
 #vehicules>h1 {
   color: #1ecb5a;
   padding: 10px;
+  font-family: 'sour-gummy';
 }
 
 #vehicules>#position {
