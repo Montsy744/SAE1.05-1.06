@@ -4,11 +4,14 @@ body {
 }
 #formulaire {
     background-color: #1f1f1f;
-    border-radius: 5%;
+    border: inset #121212 10px;
     margin-left: 35%;
     width: 30%;
-    margin-top: 15%;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 14.5%;
     padding-left: 10px;
+    padding-bottom: 5px;
 }
 
 /*css du header*/
@@ -17,7 +20,7 @@ h1 {
     color: #1ecb5a;
     
 }
-/*css du main*/
+/*css du formulaire*/
 form.contenueFormulaire {
     display: table;
     color: white;
@@ -37,4 +40,11 @@ form.contenueFormulaire {
   label {
     padding-right: 10px;
   }
-  
+#formulaire>a {
+    text-decoration: none;
+    color: #1ecb5a;
+}
+
+#formulaire>a:hover {
+  text-decoration: underline;
+}
