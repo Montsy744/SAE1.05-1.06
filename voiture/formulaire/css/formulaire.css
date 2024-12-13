@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(#121212, #1ecb5a);
+    margin: 0;
+}
+#formulaire {
+    background-color: #1f1f1f;
+    border: inset #121212 10px;
+    margin-left: 35%;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 14.5%;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+hr {
+  margin: 30px;
+}
+
+/*css du header*/
+h1 {
+    font-family: 'sour-gummy';
+    color: #1ecb5a;
+    
+}
+/*css du formulaire*/
+form.contenueFormulaire {
+    display: table;
+    color: white;
+    
+  }
+  
+  div.caseFormulaire {
+    display: table-row;
+  }
+  
+  label,
+  input {
+    display: table-cell;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    padding-right: 10px;
+  }
+#formulaire>a {
+    text-decoration: none;
+    color: #1ecb5a;
+}
+
+#formulaire>a:hover {
+  text-decoration: underline;
+}

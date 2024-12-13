@@ -4,11 +4,14 @@ body {
 }
 
 
-#titre {
+.titre {
   text-align: center;
   margin-top: 20%;
   font-size: 150%;
-  font-family: "sour-gummy", sans-serif;
+  
+}
+h1 {
+  font-family:cursive,'sour-gummy', sans-serif;
 }
 
 .logo {

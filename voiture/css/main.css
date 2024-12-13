@@ -1,9 +1,10 @@
 main {
   display: grid;
-  grid-template-rows: auto 2fr 3fr;
+  grid-template-rows: auto 2fr;
   grid-template-columns: 32% 68%;
   column-gap: 10px;
   row-gap: 30px;
+  margin-right: 15px;
 }
 
 #presentation {
@@ -13,12 +14,13 @@ main {
   border-radius: 10px;
 }
 
-#presentation > h1 {
+#presentation>h1 {
   color: #1ecb5a;
   padding-left: 10px;
+  font-family: 'sour-gummy';
 }
 
-#presentation > p {
+#presentation>p {
   color: white;
   padding-left: 10px;
   padding-bottom: 10px;
@@ -29,14 +31,16 @@ main {
   grid-row: 2;
   background-color: #121212;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
-#vehicules > h1 {
+#vehicules>h1 {
   color: #1ecb5a;
   padding: 10px;
+  font-family: 'sour-gummy';
 }
 
-#vehicules > #position {
+#vehicules>#position {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
@@ -44,33 +48,51 @@ main {
   row-gap: 10px;
 }
 
-#position > #image1 {
+#position>#image1 {
   grid-column: 1;
   grid-row: 1;
 }
-#position > #image2 {
-  grid-column: 1;
-  grid-row: 2;
-}
-#position > #auto1 {
-  grid-column: 2;
-  grid-row: 1;
-}
-#position > #auto2 {
-  grid-column: 2;
-  grid-row: 2;
-}
 
-#position > #image1 > img {
-  width: 70%;
-  height: 100%;
-  background-image: url('./img/Image-Renault-Zoe.jpeg');
-}
-
-#position > #image2 > img {
-  width: 70%;
-  height: 100%;
+#position img{
+  width: 95%;
   border: solid #1f1f1f 5px;
   border-radius: 10px;
   margin-left: 10px;
+}
+
+#position>#image2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#position>#auto1 {
+  grid-column: 2;
+  grid-row: 1;
+  color: white;
+}
+
+#position>#auto2 {
+  grid-column: 2;
+  grid-row: 2;
+
+  color: white;
+}
+
+.bouton{
+  background-color: #000000;
+  border: solid #1f1f1f 5px;
+  border-radius: 10%;
+  width: 13%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bouton>a {
+  color: white;
+  text-decoration: none;
+}
+
+.bouton>a:hover {
+  color: #1ecb5a;
+  text-decoration: none;
 }

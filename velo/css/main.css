@@ -6,7 +6,11 @@ main {
   row-gap: 30px;
 
 }
-
+#presentation>h1,
+#option>h1,
+#information>.texteInfo>h1 {
+  font-family: 'sour-gummy';
+}
 #presentation {
   grid-column-start: 2;
   grid-row-start: 1;
@@ -17,6 +21,7 @@ main {
 #presentation>h1 {
   color: #1ECB5A;
   margin-left: 20px;
+  
 }
 
 #presentation>p {

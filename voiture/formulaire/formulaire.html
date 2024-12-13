@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Spotify-Nos voitures-inscription</title>
+
+    <link href="./css/formulaire.css" rel="stylesheet" type="text/css" />
+    <link href="./../../css/police.css" rel="stylesheet" type="text/css" />
+    <link href="./../../css/footer.css" rel="stylesheet" type="text/css" />
+    <link href="./../../css/header.css" rel="stylesheet" type="text/css" />
+    <link href="./../../css/nav.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+        <section class="partLeft">
+          <img src="./img/Logo.png" alt="SpotifyLogo" width="50px" style="
+              width: 80px;
+              height: 80px;
+              margin-top: -10px;
+              margin-left: 10px;
+            "
+          />
+          <div class="title">
+            <a href="./../../accueil/accueil.html">
+              <h1 class="sour-gummy">RWS</h1>
+            </a>
+          </div>
+        </section>
+        <section class="partRight">
+          <div class="inscription">
+            <a
+              href="https://www.spotify.com/fr/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2Fintl-fr"
+            >
+              <p>s'inscrire</p>
+            </a>
+          </div>
+          <div class="connexion">
+            <a
+              href="https://accounts.spotify.com/fr/login?continue=https%3A%2F%2Fopen.spotify.com%2Fintl-fr"
+            >
+              <p>se connecter</p>
+            </a>
+          </div>
+        </section>
+      </header>
+    <section id="formulaire">
+        <header>
+            <h1>Inscription</h1>
+        </header>
+        <form action="" method="get" class="contenueFormulaire">
+          <div class="caseFormulaire">
+            <label for="prenom">Entrez votre prenom: </label>
+            <input type="text" name="prenom" id="prenom" required />
+          </div>  
+          <div class="caseFormulaire">
+                <label for="name">Entrez votre nom: </label>
+                <input type="text" name="name" id="name" required />
+            </div>
+            <div class="caseFormulaire">
+                <label for="email">Entrez votre email: </label>
+                <input type="email" name="email" id="email" placeholder="prenom.nom@Spotify.com" pattern=".+\..+\@Spotify.com" title="Uniquement des emails professionel !" required />
+            </div>
+            <hr>
+            <div class="caseFormulaire">
+                <p>Votre modéle : </p>
+                <label><input type="checkbox" name="voiture1"> Modele 1</label> 
+                <label><input type="checkbox" name="voiture2"> Modele 2</label>
+            </div>
+            <hr>
+
+            <div class="caseFormulaire">
+           <input type="submit" value="Subscribe!" />
+            </div>
+        </form>
+        <a href="./../voiture.html">retour au site</a>
+    </section>
+    <footer>
+      <a href="./../../lienFooter/Politique_confidentialité.html"><p>politique de confidentialité</p></a>
+      <a href="./../../lienFooter/Mention_Legale.html"><p>Mention légale</p></a>
+      <a href="./../../contact/contact.html"><p>Contact</p></a>
+      <a href="./../../lienFooter/Cookie.html"><p>Cookie</p></a>
+      <a href="https://open.spotify.com/intl-fr"><p>Spotify</p></a>
+    </footer>
+  </body>
+</html>
+
+
+
+

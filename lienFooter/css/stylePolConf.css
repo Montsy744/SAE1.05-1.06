@@ -17,7 +17,8 @@ body {
     background: transparent; 
     color: #1ECB5A; 
     padding: 10px 0; 
-    text-align: center; 
+    text-align: center;
+    font-family: 'sour-gummy'; 
 } 
 
 h2,ul>li { 
