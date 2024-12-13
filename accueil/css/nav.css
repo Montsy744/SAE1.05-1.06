@@ -1,0 +1,44 @@
+ body {
+  display: flex;
+  flex-direction: column;
+ }
+ 
+ 
+ nav {
+  
+  
+}
+  
+  .bloc {
+    color:white;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: column;
+
+  }
+  
+  nav > div {
+    display: flex;
+    justify-content: space-between;
+    color:white;
+  }
+
+  nav > div > h1 {
+    text-decoration: bold;
+    color: white;
+    text-align: center;
+    color: limegreen;
+  }
+  
+  .entete p {
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+  
+  .bas {
+    margin-left: 10px;
+    margin-top: 0;
+  }
+  

@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #121212;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    bottom: 1px;
+    margin-top: 39.3%;
+}
+
+footer>a{
+    color: white;
+}

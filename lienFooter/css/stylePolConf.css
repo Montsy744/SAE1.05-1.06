@@ -1,0 +1,36 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background: linear-gradient(#000000, #1ECB5A);
+    margin: 0;
+    padding: 0;; 
+} 
+
+.container { 
+    width: 80%; 
+    margin: 0 auto; 
+    background-color: #121212; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+ header { 
+    background: transparent; 
+    color: #1ECB5A; 
+    padding: 10px 0; 
+    text-align: center; 
+} 
+
+h2,ul>li { 
+    color: white; 
+}
+
+ p { 
+    line-height: 1.6; 
+    color: white; 
+}
+
+.bouton,
+.bouton>a {
+    color: #1ECB5A;
+    font-size: large;
+}
