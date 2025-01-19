@@ -1,61 +1,68 @@
 main {
-    background-color: white;
-    position: absolute;
-    left: 33%;
-    width: 66.5%;
-    height: 80.8%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 60% 40%;
-    background-color: #121212;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
   }
 
- 
+  .bloc {
+  background-image: linear-gradient(#05050a, #181620);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+    margin: 10px;
+    padding: 20px;
+    color:white;
+    border-radius: 2%;
+    text-align: center;
+  }
 
+  .bouton img {
+    width: 100%;
+    filter:invert(70%);
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 100%;
+  }
   
-  #bouton {
-    background-color: #1ecb5a;
-    border: none;
+  .bouton{
+    margin: 10px;
+  
+  }
+
+  .bouton >*{
+    background-color: transparent;
     border-radius: 5px;
     color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 20px;
-    margin-top: 100px;
-    width: auto;
+    text-decoration: none;
   }
   
-  #bouton > a {
-    color: white;
-    text-decoration: none;
-  }
   
   /* défilement des caractères*/
-  
-
-  /* .defilement {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .defilement{
+  height:70%;
+  overflow: hidden;
   }
+
+   .bulle {  
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #1ecb5a;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    animation: defilement 30s linear infinite;
+  
+  }
+
   @keyframes defilement {
     0% {
       transform: translateY(100%);
       opacity: 0;
     }
     10% {
-      opacity: 1;
-    }
-    50% {
-      transform: translateY(-50%);
       opacity: 1;
     }
     90% {
@@ -66,12 +73,3 @@ main {
       opacity: 0;
     }
   } */
-  .defilement div {
-    margin: 10px 0;
-    padding: 10px;
-    background-color: #1ecb5a;
-    color: white;
-    border-radius: 20px;
-    text-align: center;
-    animation: defilement 15s linear infinite;
-  }

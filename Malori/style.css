@@ -5,6 +5,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-decoration: none;
+  margin:0px;
 
 }
 
@@ -14,8 +15,19 @@ aside {
   display: flex;
   color:white;
   flex-direction: column;
+
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #121118;
+}
+
+footer>a{
+  color: white;
+}
 aside img {
   scale : 1;
   display: block;
@@ -41,31 +53,50 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 180px;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-header img {
-  scale: 0.3;
-  margin-top: 30%;
+
+a{
+  text-decoration: none;
 }
 
-button {
+p{
+  color:grey;
+}
+
+.pfp{
+  height:50px;
+}
+
+main a>p{
   padding: 10px 20px;
   font-size: 16px;
   border: 1px solid white;
   border-radius: 5px;
   background-color: transparent;
   color: white;
+  text-align: center;
+
 }
 
-header > section img{
+header img{
    scale : 0.5;
 }
 
+select,input{
+  background-color: rgb(207, 207, 207,0.1);
+  color:white;
+  border-radius: 10px;
+}
 
-
+.encadre {
+  background-color: rgba(126, 126, 126, 0.2);
+  border-radius:10px;
+  
+}
 
 label, p{
   font-size: 25px;
@@ -74,18 +105,19 @@ label, p{
 label:hover,
 button:hover,
 input:hover {
-  scale: 1.05;
+  scale: 1.01;
   border-color: green;
   color: green;
 }
 
 main>section {
-  background: linear-gradient(rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.8));
+  background: linear-gradient(rgb(0, 0, 0, 1), rgb(14, 11, 19));
   color: white;
   padding: 10px;
   display: flex;
   align-items: stretch;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 hr {
@@ -93,7 +125,7 @@ hr {
   color: transparent;
 }
 
-p {
+section p {
   color: grey;
 }
 
@@ -116,7 +148,7 @@ section {
 }
 
 
-h1{
+h1,h3{
   color:white;
   font-size: 50px;
 }

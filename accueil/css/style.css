@@ -1,5 +1,21 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient( #000000, #1ECB5A);
+    background: linear-gradient(#1ECB5A,#000000);
   }
+
+h1:hover{
+  color:limegreen;
+}
+
+.bouton>img:hover{
+ scale:1.2;
+  border: 5px rgb(212, 3, 219) solid;
+  border-radius:100%;
+}
+
+footer>*:hover{
+  scale:1.1;
+}
+
+

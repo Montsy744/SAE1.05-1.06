@@ -1,12 +1,11 @@
-body>header {
-    position: absoluet;
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: transparent;
+    background-color: rgb(11, 8, 17);
     height: 70px;
-    width: 97%;
+    width: 100%;
   }
   
   /* code de la partie gauche*/
